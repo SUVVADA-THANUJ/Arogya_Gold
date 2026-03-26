@@ -68,8 +68,7 @@ function Upload({ setResults, startPolling }) {
             startPolling();
 
             const express_response = await axios.post(
-                // "http://localhost:5000/predict",
-                "https://arogyaexpress.vercel.app/predict",
+                // Here comes API,
                 formData
             );
             const data = express_response.data
