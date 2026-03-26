@@ -30,8 +30,8 @@ function App() {
       status: "processing"
     });
     intervalRef.current = setInterval(async () => {
-      const res = await fetch("https://arogyaexpress.vercel.app/progress");
-      // const res = await fetch("http://localhost:5000/progress");
+      // Here comes API
+      const res={"API":1};
       const data = await res.json();
 
       setProgress(data);
