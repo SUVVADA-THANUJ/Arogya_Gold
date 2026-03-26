@@ -21,7 +21,7 @@ Based on this, the system predicts the possible disease and provides:
 - Similar cases  
 
 The main idea of this project is to build a **real-world healthcare system** by integrating full-stack + AI.
-
+# Application link at bottom
 ---
 
 ## 🚀 What the Application Does
