@@ -183,7 +183,10 @@ function Upload({ setResults, startPolling }) {
                                                         Upload New Report
                                                     </button>
                                                     {/* Submit button */}
-                                                    <button onClick={handleSubmit} disabled={loading} className='flex gap-2 items-center bg-[#0da5a3]/20 border border-[#0da5a3]/50 text-[#0da5a3] font-semibold tracking-wider px-3 py-2 rounded-xl cursor-pointer hover:bg-[#0da5a3]/30'>
+                                                    {/* <button onClick={handleSubmit} disabled={loading} className='flex gap-2 items-center bg-[#0da5a3]/20 border border-[#0da5a3]/50 text-[#0da5a3] font-semibold tracking-wider px-3 py-2 rounded-xl cursor-pointer hover:bg-[#0da5a3]/30'>
+                                                        {loading ? (<><div className='w-4 h-4 border-2 border-[#0da5a3] border-t-transparent rounded-full animate-spin'></div>Processing...</>) : (<><img className='w-5 h-5' src={submit_logo} alt="" />Submit & Analyze</>)}
+                                                    </button> */}
+                                                    <button className='flex gap-2 items-center bg-[#0da5a3]/20 border border-[#0da5a3]/50 text-[#0da5a3] font-semibold tracking-wider px-3 py-2 rounded-xl cursor-pointer hover:bg-[#0da5a3]/30'>
                                                         {loading ? (<><div className='w-4 h-4 border-2 border-[#0da5a3] border-t-transparent rounded-full animate-spin'></div>Processing...</>) : (<><img className='w-5 h-5' src={submit_logo} alt="" />Submit & Analyze</>)}
                                                     </button>
                                                 </div>
